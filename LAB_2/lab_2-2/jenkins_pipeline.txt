@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('pipe') {
+            steps {
+                sh """
+                cd /home/mlo/"Рабочий стол"/mlops_practice_cobra_kai/lab2/tryapitsyn
+                /usr/bin/env bash pipeline.sh
+                """
+            }
+        }
+    }
+}

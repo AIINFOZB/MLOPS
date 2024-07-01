@@ -1,0 +1,9 @@
+beautifulsoup4
+Jinja2
+numpy
+pandas
+pickleshare
+Pillow
+scikit-learn
+scipy
+streamlit
